@@ -1,6 +1,7 @@
 ## The GitHub Pages Website
 
-This it our project page github https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi-116a-f24-final-project-repository-team20.git
+This it our project page github.
+https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi-116a-f24-final-project-repository-team20.git
 
 
 ### Github Pages

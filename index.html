@@ -141,15 +141,24 @@
 
 
   <h1>Data Analysis</h1>
-  <p><em>Summary of data, data types, and data preprocessing.</em></p>
 
-  <p><em>Expectation: Data sources match the problem statement and are appropriate. These descriptions should be very explicit so someone could read your page and properly reproduce your results.</em></p>
+  <p><em>The analysis examines trends in median monthly owner costs (mortgage), median gross rent, and median income across U.S. states from 2015 to 2023, excluding 2020. Data was sourced from the American Community Survey (ACS) 1-Year Estimates using the U.S. Census Bureau API. Variables of interest include median monthly owner costs (DP04_0101E), median gross rent (DP04_0134E), and median income (DP03_0062E). Data preprocessing involved fetching data for each year and variable, transforming API responses into pandas DataFrames, renaming columns for clarity, merging datasets by state, and adding a "Year" column to track trends. Duplicate or unnecessary columns were removed, and all years' data was combined into a single dataset for analysis. Additionally, we calculated the percentage of rent-to-income and mortgage-to-income to evaluate housing affordability trends.  
+  </em></p>
 
   <h1>Task Analysis</h1>
 
-  <p><em>Summary of task table.</em></p>
+  <p><em>The tasks are categorized into data preparation, visual encodings, 
+    interactions, and project page design, focusing on the goals of developing
+     an interactive visualization for housing affordability analysis. 
+     Data preparation includes identifying relevant data sources, 
+     extracting raw data via the Census.gov API, and cleaning it for use in 
+     visualizations. Visual encodings involve implementing dropdown selections
+      for cost burden types and years, dynamic choropleth maps, and bar and 
+      line charts to show trends and cost burden levels. Interactions include 
+      features like tooltips, zooming, and brushing for user 
+      engagement and enhanced data exploration. 
+  </em></p>
 
-  <p><em>Expectation: Clearly describes domain tasks, processes, goals and abstract tasks for domain problems.</em></p>
 
   <h1>Design Process</h1>
   

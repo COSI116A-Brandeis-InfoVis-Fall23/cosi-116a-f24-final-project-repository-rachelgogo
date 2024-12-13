@@ -142,22 +142,21 @@
 
   <h1>Data Analysis</h1>
 
-  <p><em>The analysis examines trends in median monthly owner costs (mortgage), median gross rent, and median income across U.S. states from 2015 to 2023, excluding 2020. Data was sourced from the American Community Survey (ACS) 1-Year Estimates using the U.S. Census Bureau API. Variables of interest include median monthly owner costs (DP04_0101E), median gross rent (DP04_0134E), and median income (DP03_0062E). Data preprocessing involved fetching data for each year and variable, transforming API responses into pandas DataFrames, renaming columns for clarity, merging datasets by state, and adding a "Year" column to track trends. Duplicate or unnecessary columns were removed, and all years' data was combined into a single dataset for analysis. Additionally, we calculated the percentage of rent-to-income and mortgage-to-income to evaluate housing affordability trends.  
-  </em></p>
+  <p>The analysis examines trends in median monthly owner costs (mortgage), median gross rent, and median income across U.S. states from 2015 to 2023, excluding 2020. Data was sourced from the American Community Survey (ACS) 1-Year Estimates using the U.S. Census Bureau API. Variables of interest include median monthly owner costs (DP04_0101E), median gross rent (DP04_0134E), and median income (DP03_0062E). Data preprocessing involved fetching data for each year and variable, transforming API responses into pandas DataFrames, renaming columns for clarity, merging datasets by state, and adding a "Year" column to track trends. Duplicate or unnecessary columns were removed, and all years' data was combined into a single dataset for analysis. Additionally, we calculated the percentage of rent-to-income and mortgage-to-income to evaluate housing affordability trends.  
+  </p>
 
   <h1>Task Analysis</h1>
 
-  <p><em>The tasks are categorized into data preparation, visual encodings, 
-    interactions, and project page design, focusing on the goals of developing
-     an interactive visualization for housing affordability analysis. 
-     Data preparation includes identifying relevant data sources, 
-     extracting raw data via the Census.gov API, and cleaning it for use in 
-     visualizations. Visual encodings involve implementing dropdown selections
-      for cost burden types and years, dynamic choropleth maps, and bar and 
-      line charts to show trends and cost burden levels. Interactions include 
-      features like tooltips, zooming, and brushing for user 
-      engagement and enhanced data exploration. 
-  </em></p>
+<p>The tasks are categorized into data preparation, visual encodings, interactions, and project page design, all aimed at developing an interactive visualization to analyze housing affordability trends.</p>
+
+<p><strong>Data preparation</strong> involves researching and identifying relevant data sources, such as Census.gov, extracting raw data on income, rent, and mortgage statistics, and performing cleaning and preprocessing to ensure consistency and usability in subsequent analyses. This step ensures the data is accurate, relevant, and well-structured for visualization tasks.</p>
+
+<p><strong>Visual encodings</strong> focus on creating intuitive and informative representations of the data. Dropdown menus will allow users to select cost burden types (rent, mortgage, or income) and specific years, dynamically updating the visualizations based on user inputs. Choropleth maps will display state polygons with shading that reflects cost burden levels, providing an immediate visual representation of regional differences. Bar and line charts will complement these maps, offering historical trends and comparative insights, with detailed axes, legends, and marks to clarify the data.</p>
+
+<p><strong>Interactions</strong> enhance the usability of the visualizations by enabling tooltips that reveal exact data values on hover, zooming and panning features for map exploration, and brushing on bar charts to select and highlight specific time ranges. These features ensure users can explore the data interactively and gain deeper insights into housing affordability patterns.</p>
+
+<p>Finally, <strong>project page design</strong> will provide an accessible entry point for users, introducing the project’s objectives, significance, and the methodology behind the analysis. Together, these tasks aim to create an engaging, informative, and user-friendly platform for understanding housing affordability challenges across the United States.</p>
+
 
 
   <h1>Design Process</h1>

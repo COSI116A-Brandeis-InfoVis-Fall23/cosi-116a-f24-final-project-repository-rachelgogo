@@ -1,10 +1,9 @@
-# COSI 116A Final Project Template
-
-This template will help you get started with your project. Please look through all these materials so you know how to organize your project.
-
 ## The GitHub Pages Website
 
-Make sure you publish your project to github pages, and put the URL here:  https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi-116a-f24-final-project-repository-team20.git
+This it our project page github.
+
+    https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi-116a-f24-final-project-repository-team20.git
+
 
 ### Github Pages
 

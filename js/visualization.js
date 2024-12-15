@@ -558,6 +558,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 .style("opacity", 0);
                         });
 
+
                     // Add connecting lines only when filtered
                     if (isFiltered && filteredData.length > 0) {
                         const line = d3.line()
@@ -606,6 +607,5 @@ document.addEventListener("DOMContentLoaded", function () {
             updateScatterPlot(data);
         });
     }
-
 });
 

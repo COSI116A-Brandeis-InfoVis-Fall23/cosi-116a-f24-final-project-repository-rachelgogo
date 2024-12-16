@@ -77,8 +77,8 @@ svg.map {
 }
 
 .video-container iframe {
-  width: 60%;
-  height: 600px;
+  width: 80%;
+  height: 800px;
 }
 
 @media screen and (max-width: 1200px) {

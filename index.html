@@ -185,7 +185,8 @@
   <div class="content-column">
     <h1>Demo Video</h1>
     <div class="video-container">
-      <iframe width="600" height="400" src="https://www.youtube.com/embed/gP9XMEPbFTc" frameborder="0" allowfullscreen></iframe>
+      <iframe width="600" height="400" src="https://www.youtube.com/embed/Y7XIqd3g0QI" frameborder="0"
+        allowfullscreen></iframe>
     </div>
 
 
@@ -240,6 +241,42 @@
       line charts to show temporal trends. These sketches helped us define key components, such as dropdown filters for
       selecting cost burden types and years, and interactive tooltips to display state-specific details.
     </p>
+
+    <!-- two piture -->
+    <div style="display: flex; justify-content: center; gap: 20px; margin: 20px 0;">
+      <div style="text-align: center;">
+        <img src="images/map_interaction.png" alt="Map Interaction View"
+          style="max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+        <p><em>Figure 1: Interactive map and bar-line charts demonstrating brush and link features.</em></p>
+      </div>
+      <div style="text-align: center;">
+        <img src="images/cost_burden_comparison.png" alt="Cost Burden Comparison View"
+          style="max-width: 100%; height: auto; border: 1px solid #ddd; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+        <p><em>Figure 2: Cost burden comparison across U.S. states with dynamic range selection.</em></p>
+      </div>
+    </div>
+
+    <p>
+      These two visualizations represent key components of our design, showcasing various functionalities:
+    </p>
+    <ul>
+      <li>
+        <strong>Interactive Map:</strong> Allows users to dynamically explore state-specific data, highlighting
+        disparities in rent, mortgage, and income levels.
+      </li>
+      <li>
+        <strong>Bar and Line Charts:</strong> Enable temporal comparisons through brushing, dynamically updating
+        corresponding data across other components.
+      </li>
+      <li>
+        <strong>Range Selection:</strong> Users can filter the map to focus on specific cost ranges, masking irrelevant
+        data and improving focus.
+      </li>
+      <li>
+        <strong>Dropdown Filters:</strong> Provide control over displayed metrics (Rent, Mortgage, Income) and time
+        periods.
+      </li>
+    </ul>
 
     <h2>Iterative Improvements</h2>
     <ol>
@@ -306,14 +343,26 @@
 
     <h1>Conclusion</h1>
 
-    <p>Through this interactive visualization, we successfully analyzed and presented housing cost burdens in the United States from 2015 to 2023. By integrating data on rent, mortgage, and income, we highlighted regional and temporal trends in housing affordability. Key features like the choropleth map, bar and line charts, and ranking table provided users with an intuitive and dynamic exploration tool.</p>
-    
-    <p>One major finding from our analysis is the relative stability of housing cost burdens at the national level. Mortgage burdens have consistently hovered around 30%, while rent burdens remained around 19-20%. However, deeper exploration at the regional level could uncover areas where disparities are more pronounced, pointing to potential policy interventions.</p>
-    
-    <p>Looking ahead, there are areas for improvement and future work. Incorporating additional metrics, such as housing supply, cost of living, and demographic factors, could provide a more comprehensive picture of housing inequality. Enhancing interactivity, such as adding state-specific time trends or drill-down features, would further enrich the user experience. Finally, expanding the scope to include localized data at the city or county level could uncover more granular insights.</p>
-    
-    <p>In conclusion, this project serves as a valuable tool for policymakers, real estate professionals, and individuals to better understand housing affordability challenges. It provides a foundation for future research and development, with the potential to inform data-driven decision-making and promote housing equality.</p>
-    
+    <p>Through this interactive visualization, we successfully analyzed and presented housing cost burdens in the United
+      States from 2015 to 2023. By integrating data on rent, mortgage, and income, we highlighted regional and temporal
+      trends in housing affordability. Key features like the choropleth map, bar and line charts, and ranking table
+      provided users with an intuitive and dynamic exploration tool.</p>
+
+    <p>One major finding from our analysis is the relative stability of housing cost burdens at the national level.
+      Mortgage burdens have consistently hovered around 30%, while rent burdens remained around 19-20%. However, deeper
+      exploration at the regional level could uncover areas where disparities are more pronounced, pointing to potential
+      policy interventions.</p>
+
+    <p>Looking ahead, there are areas for improvement and future work. Incorporating additional metrics, such as housing
+      supply, cost of living, and demographic factors, could provide a more comprehensive picture of housing inequality.
+      Enhancing interactivity, such as adding state-specific time trends or drill-down features, would further enrich
+      the user experience. Finally, expanding the scope to include localized data at the city or county level could
+      uncover more granular insights.</p>
+
+    <p>In conclusion, this project serves as a valuable tool for policymakers, real estate professionals, and
+      individuals to better understand housing affordability challenges. It provides a foundation for future research
+      and development, with the potential to inform data-driven decision-making and promote housing equality.</p>
+
 
     <h1>Acknowledgments</h1>
 
@@ -324,6 +373,8 @@
       <li><a href="https://d3js.org/">D3: Data-Driven Documents</a> by Mike Bostock.</li>
       <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub"
           ribbon</a> by Chris Heilmann.</li>
+      <li><a href="https://gist.github.com/gallowayevan/4d52cee5727744730027dea5b06a802d">Annotate US states with
+          d3-annotation</li>
     </ul>
 
   </div>

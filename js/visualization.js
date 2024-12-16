@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var path = d3.geoPath();
     var colorScale;
 
-    // State name to FIPS code mapping
+    //State name to FIPS code mapping; source: Claude 
     const stateNameToFips = {
         'Alabama': '01', 'Alaska': '02', 'Arizona': '04', 'Arkansas': '05', 'California': '06',
         'Colorado': '08', 'Connecticut': '09', 'Delaware': '10', 'Florida': '12', 'Georgia': '13',
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         fipsToStateName[stateNameToFips[state]] = state;
     }
 
-    // Load both files using d3.v4 syntax
+    // Load both files using d3.v4 syntax; Source: ChatGPT
     d3.queue()
         .defer(d3.json, "https://d3js.org/us-10m.v1.json")
         .defer(d3.csv, "data/updated_data.csv")
